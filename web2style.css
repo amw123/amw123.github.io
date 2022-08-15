@@ -1,0 +1,45 @@
+h1 {
+  font-size: 80px;
+  color: yellow; /*backup color*/
+  color: rgba(76,0,122,1);
+  background-color: green; /*backup  colour*/
+  background-color: rgba(182,215,0,1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  border-color: black;
+}
+
+p {
+  font-size: 15px;
+}
+
+table {
+  width:50%;
+}
+
+
+table,th,td {
+  border:2px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  font-size: 19px;
+  text-decoration-line: underline;
+  height:10%;
+}
+
+td:nth-child(1), th:nth-child(1){
+  background-color: #d2e6f7;
+}
+
+td:nth-child(2), th:nth-child(2){
+  background-color: #e0f7cb;
+}
+
+td:nth-child(3), th:nth-child(3){
+  background-color: #dabff2;
+}
