@@ -40,6 +40,11 @@ table,th,td {
   border-collapse: collapse;
 }
 
+
+tr:hover {
+  background-color: blue
+}
+
 th {
   font-size: 19px;
   text-decoration-line: underline;
@@ -61,5 +66,4 @@ td:nth-child(2), th:nth-child(2){
 /*3rd column of the table*/
 td:nth-child(3), th:nth-child(3){
   background-color: #dabff2;
-  width:33%;
 }
