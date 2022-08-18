@@ -1,7 +1,7 @@
 h1 {
+  /* font-family: "Silkscreen","Courier New", monospace; */
   font-size: 80px;
-  color: yellow; /*backup color*/
-  color: black;
+  color:black;
   background-color: green; /*backup  colour*/
   background-color: #d2e6f7;
   text-align: center;
@@ -54,16 +54,17 @@ th {
 /*1st column of the table*/
 td:nth-child(1), th:nth-child(1){
   background-color: #d2e6f7;
-  width:33%;
+  width:10%;
 }
 
 /*2nd column of the table*/
 td:nth-child(2), th:nth-child(2){
   background-color: #e0f7cb;
-  width:33%;
+  width:45%;
 }
 
 /*3rd column of the table*/
 td:nth-child(3), th:nth-child(3){
   background-color: #dabff2;
+  width:45%;
 }
