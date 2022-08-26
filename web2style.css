@@ -2,15 +2,12 @@ h1 {
   /* font-family: "Silkscreen","Courier New", monospace; */
   font-size: 50px;
   color:black;
-  background-color: rgb(107, 184, 107); /*backup  colour*/
-  /* background-color: #e0f7cb; */
   text-align: center;
-  border: 3px solid #044811;
+  border: 15px solid #044811;
 }
 
 h2 {
   font-size: 20px;
-  border-color: black;
 }
 
 p {
@@ -60,7 +57,7 @@ th {
 td:nth-child(1), th:nth-child(1){
   background-color: #5a9869;
   text-align: center;
-  font-size: 40px;
+  font-size: 25px;
   width:10%;
 }
 
@@ -68,7 +65,7 @@ td:nth-child(1), th:nth-child(1){
 td:nth-child(2), th:nth-child(2){
   background-color: #b5f778;
   text-align: center;
-  font-size: 40px;
+  font-size: 25px;
   width:45%;
 }
 
