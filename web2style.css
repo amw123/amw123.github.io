@@ -1,14 +1,15 @@
 h1 {
   /* font-family: "Silkscreen","Courier New", monospace; */
-  font-size: 80px;
+  font-size: 50px;
   color:black;
-  background-color: green; /*backup  colour*/
-  background-color: #d2e6f7;
+  background-color: rgb(107, 184, 107); /*backup  colour*/
+  /* background-color: #e0f7cb; */
   text-align: center;
+  border: 3px solid #044811;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 20px;
   border-color: black;
 }
 
@@ -40,7 +41,11 @@ table,th,td {
   border-collapse: collapse;
 }
 
+td {
+  font-size: 17px;
+}
 
+/* Don't think this bit works*/
 tr:hover {
   background-color: blue
 }
@@ -53,19 +58,23 @@ th {
 
 /*1st column of the table*/
 td:nth-child(1), th:nth-child(1){
-  background-color: #d2e6f7;
+  background-color: #5a9869;
+  text-align: center;
+  font-size: 40px;
   width:10%;
 }
 
 /*2nd column of the table*/
 td:nth-child(2), th:nth-child(2){
-  background-color: #e0f7cb;
+  background-color: #b5f778;
+  text-align: center;
+  font-size: 40px;
   width:45%;
 }
 
 /*3rd column of the table*/
 td:nth-child(3), th:nth-child(3){
-  background-color: #dabff2;
+  background-color: #bff2c1;
   width:45%;
 }
 
