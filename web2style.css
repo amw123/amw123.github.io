@@ -23,13 +23,12 @@ table {
   width:100%;
 }
 
-
-table,th,td {
+table, th, td {
   border:2px solid black;
   border-collapse: collapse;
 }
 
-td {
+table.table1 td {
   font-size: 17px;
 }
 
@@ -38,33 +37,64 @@ tr:hover {
   background-color: blue
 }
 
-th {
+table.table1 th {
   font-size: 19px;
   text-decoration-line: underline;
   /*height:10%;*/
 }
 
-/*1st column of the table*/
-td:nth-child(1), th:nth-child(1){
+/*1st column of the table 1*/
+table.table1 td:nth-child(1), table.table1 th:nth-child(1){
   background-color: #5a9869;
   text-align: center;
   font-size: 25px;
   width:10%;
 }
 
-/*2nd column of the table*/
-td:nth-child(2), th:nth-child(2){
+/*2nd column of the table 1*/
+table.table1 td:nth-child(2), table.table1 th:nth-child(2){
   background-color: #b5f778;
   text-align: center;
   font-size: 25px;
   width:45%;
 }
 
-/*3rd column of the table*/
-td:nth-child(3), th:nth-child(3){
+/*3rd column of the table 1*/
+table.table1 td:nth-child(3), table.table1 th:nth-child(3){
   background-color: #bff2c1;
   width:45%;
 }
+
+/* Table 2 Styling */
+
+table.table2 td, table.table2 th {
+  font-size: 22px;
+}
+
+/*1st column of the table 2*/
+table.table2 td:nth-child(1), table.table2 th:nth-child(1){
+  background-color: #016452ba;
+  text-align: center;
+  font-size: 25px;
+  width:30%;
+}
+
+/*2nd column of the table 2*/
+table.table2 td:nth-child(2), table.table2 th:nth-child(2){
+  background-color: #fa6175;
+  text-align: center;
+  font-size: 25px;
+  width:30%;
+}
+
+/*3rd column of the table 2*/
+table.table2 td:nth-child(3), table.table2 th:nth-child(3){
+  background-color: #716cff;
+  text-align: center;
+  font-size: 25px;
+  width:30%;
+}
+
 
 aside{
   text-align: center;
