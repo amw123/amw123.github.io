@@ -20,7 +20,9 @@ body {
 
 table {
   table-layout:fixed;
-  width:100%;
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 table, th, td {
@@ -32,7 +34,6 @@ table.table1 td {
   font-size: 17px;
 }
 
-/* Don't think this bit works*/
 tr:hover {
   background-color: blue
 }
@@ -95,6 +96,40 @@ table.table2 td:nth-child(3), table.table2 th:nth-child(3){
   width:30%;
 }
 
+/* Main Table Styling */
+
+table.main td, table.main th {
+  font-size: 22px;
+}
+
+/*1st column of the main table*/
+table.main td:nth-child(1){
+  background-color: #c1f0e8ba;
+  text-align: center;
+  font-size: 25px;
+  width:10%;
+}
+
+/*2nd column of the main table 2*/
+table.main td:nth-child(2){
+  background-color: #87c895;
+  text-align: center;
+  font-size: 25px;
+  width:45%;
+}
+
+/*3rd column of the main table*/
+table.main td:nth-child(3){
+  background-color: #716cff;
+  text-align: center;
+  font-size: 18px;
+  width:45%;
+}
+
+table.main th{
+  background-color: #1d8f39;
+  font-size: 26px;
+}
 
 aside{
   text-align: center;
